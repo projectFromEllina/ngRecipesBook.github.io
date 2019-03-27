@@ -1,0 +1,25 @@
+.btn-add {
+    position: relative;
+}
+.hint {
+    line-height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #e68e46;
+    color: #fff;
+    top: 40px;
+    left: 17px;
+    z-index: 999;
+    opacity: 0;
+    transition: .2s ease-out;
+}
+.hint::after {
+    content: '';
+    position: absolute;
+    top: -14px;
+    left: 37px;
+    border: 8px solid transparent;
+    border-bottom: 10px solid #e68e46;
+    display: block;
+}

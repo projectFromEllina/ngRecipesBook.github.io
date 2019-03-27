@@ -1,0 +1,22 @@
+<div class="row">
+    <div class="col-xs-12 add-recipe">
+        <button
+            class="btn btn-success btn-add"
+            (click)="onNewRecipe()"
+            (mouseenter)="showHint('1')"
+            (mouseleave)="showHint('0')"
+            > New Recipe
+        </button>
+        <div class="hint"
+            [ngStyle]="{opacity: visibility}">Please register or login to your account!</div>
+    </div>
+</div>
+<hr>
+<div class="row">
+    <div class="col-xs-12">
+        <app-recipe-item
+            *ngFor="let recipeEl of recipes; let i = index"
+            [recipe]="recipeEl"
+            [index]="i"></app-recipe-item>
+    </div>
+</div>
