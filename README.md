@@ -1,5 +1,5 @@
 # ngRecipesBook.github.io
-Reference to the project: https://recipe-book-a.firebaseapp.com/ . <br /><br />
+Link: https://recipe-book-a.firebaseapp.com/ . <br /><br />
 <ul>
   <li>In this project is a registration form with validation and two main pages - a recipe page and a shopping list page. </li>
    <br /><br />
